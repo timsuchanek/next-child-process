@@ -1,0 +1,10 @@
+{
+  "build": {
+    "env": {
+      "PRISMA_EXAMPLE_DATABASE_URL": "@prisma_example_database_url"
+    }
+  },
+  "env": {
+    "PRISMA_EXAMPLE_DATABASE_URL": "@prisma_example_database_url"
+  }
+}

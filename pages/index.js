@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { ls } from '../src/ls'
 
-export const getServerProps = async () => {
+export const getServerSideProps = async () => {
   return { lsResult: ls() }
 }
 
